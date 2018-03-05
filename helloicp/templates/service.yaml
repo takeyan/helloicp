@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "helloicp.fullname" . }}
+  labels:
+    app: {{ template "helloicp.name" . }}
+    chart: {{ template "helloicp.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      nodePort: {{ .Values.service.nodePort }}
+  selector:
+    app: {{ template "helloicp.name" . }}
+    release: {{ .Release.Name }}

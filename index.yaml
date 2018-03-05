@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  helloicp:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-03-05T14:40:18.612938+09:00
+    description: A Helm chart for Kubernetes
+    digest: c487f13727bd4bfb17d1f683d8bc189d303e798a2ebcd8481af6015ffd790188
+    name: helloicp
+    urls:
+    - helloicp-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-03-05T14:40:18.605387+09:00
