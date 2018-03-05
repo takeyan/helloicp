@@ -8,6 +8,7 @@ entries:
     digest: c487f13727bd4bfb17d1f683d8bc189d303e798a2ebcd8481af6015ffd790188
     name: helloicp
     urls:
-    - https://raw.githubusercontent.com/takeyan/icpdemo01/master/helloicp-0.1.0.tgz
+    - https://raw.githubusercontent.com/takeyan/helloicp/master/helloicp-0.1.0.tgz
     version: 0.1.0
+    icon: https://raw.githubusercontent.com/takeyan/helloicp/master/takeyan_iknow.jpg
 generated: 2018-03-05T14:40:18.605387+09:00
